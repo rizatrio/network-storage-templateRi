@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Server {
     private final int port;
-    StringBuilder message = new StringBuilder();  // стрингбилдер для склеивания нашего сообшения для отправки клиенту
+    StringBuilder message = new StringBuilder();
 
     public static void main(String[] args) throws InterruptedException {
         new Server(9000).start();
